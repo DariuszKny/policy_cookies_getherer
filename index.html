@@ -7,6 +7,7 @@
     <title>Popup Task</title>
     <link rel="stylesheet" href="styles/App.scss"/>
     <script src="./src/index.ts"></script>
+
 </head>
 <body>
 <div id="App" class="app">
@@ -22,7 +23,7 @@
     </header>
     <main>
         <div class="section ">
-            <img src="https://source.unsplash.com/random/1600x905" alt="">
+            <img src="https://source.unsplash.com/random/800x450" alt="">
             <div class="section-container">
                 <h3>Lorem ipsum dolor sit.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum hic iure magni nulla.
@@ -34,7 +35,7 @@
             </div>
         </div>
         <div class="section ">
-            <img src="https://source.unsplash.com/random/1600x900" alt="">
+            <img src="https://source.unsplash.com/random/800x450" alt="">
             <div class="section-container">
                 <h3>Lorem ipsum dolor sit.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum hic iure magni nulla.
@@ -46,7 +47,7 @@
             </div>
         </div>
         <div class="section ">
-            <img src="https://source.unsplash.com/random/1600x904" alt="">
+            <img src="https://source.unsplash.com/random/800x450" alt="">
             <div class="section-container">
                 <h3>Lorem ipsum dolor sit.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum hic iure magni nulla.
@@ -58,7 +59,7 @@
             </div>
         </div>
         <div class="section ">
-            <img src="https://source.unsplash.com/random/1600x903" alt="">
+            <img src="https://source.unsplash.com/random/800x450" alt="">
             <div class="section-container">
                 <h3>Lorem ipsum dolor sit.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum hic iure magni nulla.
@@ -70,7 +71,7 @@
             </div>
         </div>
         <div class="section ">
-            <img src="https://source.unsplash.com/random/1600x902" alt="">
+            <img src="https://source.unsplash.com/random/800x450" alt="">
             <div class="section-container">
                 <h3>Lorem ipsum dolor sit.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum hic iure magni nulla.
@@ -82,7 +83,7 @@
             </div>
         </div>
         <div class="section ">
-            <img src="https://source.unsplash.com/random/1600x901" alt="">
+            <img src="https://source.unsplash.com/random/800x450" alt="">
             <div class="section-container">
                 <h3>Lorem ipsum dolor sit.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum hic iure magni nulla.
@@ -93,24 +94,44 @@
                     tempora ullam vero voluptatum? Delectus impedit laudantium velit!</p>
             </div>
         </div>
+
+    </main>
+
+    <footer><h2>Footer</h2></footer>
 </div>
 
+<div class="overlay"></div>
 
 <div id="Popup" class="popup">
+    <div class="popup-header">
+        <h2>GDPR consent</h2>
+    </div>
     <div class="popup-content">
-        <h2>Pop Up</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum excepturi modi quam tempore! Aliquam culpa
-            debitis deleniti deserunt dicta doloremque eius eos, est excepturi fuga in itaque, mollitia odit officia
-            sint sit, tempora vel vitae. Aliquam animi assumenda beatae deleniti deserunt dignissimos magnam molestiae
-            nostrum odio perspiciatis, quis vel voluptas.</p>
+        <p>Razem z naszymi partnerami przechowujemy na urządzeniu informacje, takie jak pliki cookie, i uzyskujemy do
+            nich dostęp, a także przetwarzamy dane osobowe, takie jak niepowtarzalne identyfikatory i standardowe
+            informacje wysyłane przez urządzenie, w celu zapewniania spersonalizowanych reklam i treści, pomiaru reklam
+            i treści oraz zbierania opinii odbiorców, a także rozwijania i ulepszania produktów.
+
+            Za Twoją zgodą my i nasi partnerzy możemy wykorzystywać precyzyjne dane geolokalizacyjne i identyfikację
+            przez skanowanie urządzeń. Możesz kliknąć, aby wyrazić zgodę na przetwarzanie danych przez nas i naszych
+            partnerów zgodnie z opisem powyżej. Możesz też uzyskać dostęp do bardziej szczegółowych informacji i zmienić
+            swoje preferencje przed wyrażeniem zgody lub odmówić jej wyrażenia. Pamiętaj, że niektóre rodzaje
+            przetwarzania danych osobowych mogą nie wymagać Twojej zgody, ale masz prawo sprzeciwić się takiemu
+            przetwarzaniu. Twoje preferencje będą mieć zastosowanie tylko do tej witryny. Preferencje możesz zmienić w
+            dowolnym momencie, powracając na tę witrynę lub odwiedzając stronę zawierającą naszą politykę
+            prywatności.</p>
+
+        <ul class="partners">
+
+        </ul>
+        <div id="Loader" class="loader"></div>
+
+    </div>
+    <div class="popup-inputs">
+        <button id="Reject">Reject</button>
+        <button id="Accept">Accept</button>
     </div>
 </div>
 
-<div id="Overlay" class="overlay">
-
-</div>
-
-</main>
-<footer><h2>Footer</h2></footer>
 </body>
 </html>
