@@ -2,7 +2,9 @@
 
 Popup - aplikacja do stron internetowych, zbierająca ciesteczka o ustawieniach prywatności
 
-Uruchomienie projektu Aby uruchomić aplikację na lokalnej maszynie, wykonaj następujące kroki:
+## Uruchomienie projektu
+
+Aby uruchomić aplikację na lokalnej maszynie, wykonaj następujące kroki:
 
 Zainstaluj zależności za pomocą komendy: npm install
 
