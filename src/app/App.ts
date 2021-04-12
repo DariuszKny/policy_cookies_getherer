@@ -1,6 +1,10 @@
+import { Popup } from './Popup';
+
+
 class App {
     _init() {
-        console.log('start');
+        const popup = Popup;
+        popup.start()
     }
 }
 
