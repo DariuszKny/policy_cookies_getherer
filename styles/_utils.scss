@@ -1,0 +1,34 @@
+.loader {
+  display: none;
+  border: 16px solid #101010;
+  border-top: 16px solid #ffcc00;
+  border-bottom: 16px solid #ffcc00;
+  border-radius: 50%;
+  margin:  2rem auto;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+button {
+  margin: 10px auto;
+  padding: 10px;
+  outline: none;
+  width: 40%;
+  color: #ffcc00;
+  background-color: #101010;
+  border-radius: 20px;
+  border: 1px solid #ffcc00;
+
+  &:hover {
+    cursor: pointer;
+    color: #101010;
+    background-color: #ffcc00;
+  }
+}
+
